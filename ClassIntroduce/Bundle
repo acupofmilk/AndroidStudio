@@ -1,2 +1,5 @@
 Bundle类是一个key-value对
 import android.os.Bundle
+
+Bundle mBundle = new Bundle(); 
+mBundle.putString("Data", "data from TestBundle");
